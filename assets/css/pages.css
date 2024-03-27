@@ -1,0 +1,91 @@
+body {
+  background-color: #00473e;
+  font-family: "Roboto", sans-serif;
+}
+
+/* main application container */
+.app {
+  margin: 100px auto 0;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  padding: 30px;
+  background-color: #f2f7f5;
+}
+
+/* quiz title styles */
+.app h1 {
+  border-bottom: 1px solid #00473e;
+  padding-bottom: 30px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #00473e;
+}
+
+/* quiz section */
+.quiz {
+  padding: 20px 0;
+}
+
+/* quiz question styles */
+.quiz h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #00473e;
+}
+
+/* answer buttons */
+.btn-answer {
+  transform: all 0.3s;
+  margin: 10px 0;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px;
+  background-color: #fffffe;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: left;
+  color: #000000;
+}
+
+/* hover effect for answer buttons */
+.btn-answer:hover:not([disabled]) {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* disabled state for answer buttons */
+.btn-answer:disabled {
+  cursor: no-drop;
+}
+
+/* 'Next' button */
+#next-btn {
+  display: none;
+  margin: 20px auto 0;
+  border: none;
+  border-radius: 4px;
+  width: 150px;
+  padding: 10px;
+  background-color: #faae2b;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  color: #00473e;
+}
+
+/* hover effect for 'Next' button */
+#next-btn:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* button background color for correct answer */
+.correct {
+  background-color: #9aeabc;
+}
+
+/* button background color for incorrect answer */
+.incorrect {
+  background-color: #ff9393;
+}

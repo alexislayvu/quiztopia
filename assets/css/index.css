@@ -1,0 +1,63 @@
+body {
+  background-color: #f2f7f5;
+}
+
+/* hide navbar elements from index.html */
+body.index-page .home-button,
+body.index-page .dropdown-toggle,
+body.index-page .navbar-toggler {
+  display: none;
+}
+
+/* center content veritically and horizontally within the container */
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+/* styling for cards */
+.card {
+  margin: 0 auto;
+  width: 18rem;
+  height: 400px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+/* media query for screens with max-width of 1300px */
+@media (max-width: 1300px) {
+  .container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* media query for screens with max-width 700px */
+@media (max-width: 700px) {
+  .container {
+    grid-template-columns: repeat(1, 1fr); /* change to one column */
+  }
+}
+
+/* styling for 'Take the quiz!' button */
+.btn-primary {
+  border: none;
+  background-color: #faae2b;
+  color: #00473e;
+  font-weight: 500;
+}
+
+/* hover effect for 'Take the quiz' button */
+.btn-primary:hover {
+  border: none;
+  background-color: #faae2b;
+  color: #00473e;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* add shadow on hover */
+}
