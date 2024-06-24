@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>QuizTopia</title>
+    <title>TrivTopia</title>
   </head>
   <body class="index-page">
     <div id="navbar-placeholder"></div>
@@ -26,39 +26,27 @@
     <div class="container">
       <!-- Pop Culture Quiz Card -->
       <div class="card" style="width: 18rem">
-        <img
-          src="../assets/images/hollywood.jpg"
-          class="card-img-top"
-          alt="..."
-        />
+        <img src="../assets/images/hollywood.jpg" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">Pop Culture</h5>
           <p class="card-text">
-            Test your knowledge of pop culture with this quiz! From movies and
-            music to TV shows and celebrities.
+            Test your knowledge of pop culture with this quiz! From movies and music to TV shows and
+            celebrities.
           </p>
-          <a href="../pages/popCultureQuiz.html" class="btn btn-primary">
-            Take the quiz!
-          </a>
+          <a href="../pages/popCultureQuiz.html" class="btn btn-primary"> Take the quiz! </a>
         </div>
       </div>
 
       <!-- Science and Nature Quiz Card -->
       <div class="card" style="width: 18rem">
-        <img
-          src="../assets/images/science.jpg"
-          class="card-img-top"
-          alt="..."
-        />
+        <img src="../assets/images/science.jpg" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">Science and Nature</h5>
           <p class="card-text">
-            Test your scientific knowledge with this quiz! Explore questions
-            about chemistry, biology, physics, and more.
+            Test your scientific knowledge with this quiz! Explore questions about chemistry,
+            biology, physics, and more.
           </p>
-          <a href="../pages/scienceQuiz.html" class="btn btn-primary">
-            Take the quiz!
-          </a>
+          <a href="../pages/scienceQuiz.html" class="btn btn-primary"> Take the quiz! </a>
         </div>
       </div>
 
@@ -68,31 +56,23 @@
         <div class="card-body">
           <h5 class="card-title">Sports</h5>
           <p class="card-text">
-            Test your sports knowledge with this quiz! See how much you know
-            about legendary athletes and famous sporting events.
+            Test your sports knowledge with this quiz! See how much you know about legendary
+            athletes and famous sporting events.
           </p>
-          <a href="pages/sportsQuiz.html" class="btn btn-primary">
-            Take the quiz!
-          </a>
+          <a href="pages/sportsQuiz.html" class="btn btn-primary"> Take the quiz! </a>
         </div>
       </div>
 
       <!-- Technology Quiz Card -->
       <div class="card" style="width: 18rem">
-        <img
-          src="assets/images/technology.jpg"
-          class="card-img-top"
-          alt="..."
-        />
+        <img src="assets/images/technology.jpg" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">Technology</h5>
           <p class="card-text">
-            Test your tech knowledge! Explore questions on groundbreaking
-            inventions, influential pioneers, and modern innovations.
+            Test your tech knowledge! Explore questions on groundbreaking inventions, influential
+            pioneers, and modern innovations.
           </p>
-          <a href="pages/technologyQuiz.html" class="btn btn-primary">
-            Take the quiz!
-          </a>
+          <a href="pages/technologyQuiz.html" class="btn btn-primary"> Take the quiz! </a>
         </div>
       </div>
     </div>
@@ -104,10 +84,10 @@
     ></script>
     <script>
       // fetch and insert the navbar
-      fetch("../components/navbar.html")
+      fetch('../components/navbar.html')
         .then((response) => response.text())
         .then((html) => {
-          document.getElementById("navbar-placeholder").innerHTML = html;
+          document.getElementById('navbar-placeholder').innerHTML = html;
         });
     </script>
   </body>
