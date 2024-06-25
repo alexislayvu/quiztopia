@@ -1,4 +1,4 @@
-# QuizTopia 🧠
+# TrivTopia 🧠
 
 A quiz web application developed using HTML, CSS, JavaScript, and Bootstrap for CPSC 349 Web Frontend Engineering.
 
@@ -27,4 +27,4 @@ The web application should now open in your default web browser.
 
 Alternatively, you can access the deployed version of the project online. The project has been deployed using Vercel. Simply click on the link provided below:
 
-[Check it out!](https://quiztopia349.vercel.app/)
+[Check it out!](https://trivtopia.vercel.app/)
